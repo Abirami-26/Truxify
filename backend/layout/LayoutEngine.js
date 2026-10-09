@@ -138,7 +138,11 @@ class LayoutEngine {
                 this.metrics.totalRenders++;
                 processedCount++;
             }
+            
             this.removeDirtyNode(nodeId);
+            
+               
+            
         }
 
         const duration = Date.now() - startTime;
